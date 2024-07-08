@@ -103,8 +103,8 @@ print("Unzip App.zip done")
 if mode == 1:    
 #----roblox delta
     if tab <=5 and not(cfe("/sdcard/Download/delta.zip")):
-        print("Download delta.zip")
-        wget.download("https://github.com/MinhMeow123/Autosetup/releases/download/database/delta.zip",out="delta.zip")
+        print("Download delta")
+        wget.download("https://github.com/KyleSoSad/Autosetup/releases/download/Delta/Delta_Hwid.Lite.By.T.phfeelsig.apk",out="delta.zip")
         
     elif tab > 5 and not(cfe("/sdcard/Download/deltasvip.zip")):
         print("Download delta(large).zip")
